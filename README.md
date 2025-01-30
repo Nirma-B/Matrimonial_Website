@@ -1,3 +1,3 @@
-<<<<<<< HEAD
+
 # Matrimonial_website
-=======
+
