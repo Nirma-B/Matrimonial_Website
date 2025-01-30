@@ -1,0 +1,119 @@
+.our-stories {
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  background: #f9f9f9;
+}
+
+.our-stories h2 {
+  color: #1e3a8a;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.our-stories p {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Main carousel container */
+.carousel-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  max-width: 1200px; /* Adjusted width for 4 images */
+  margin: auto;
+}
+
+/* Story cards container */
+.stories-container {
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Individual story card */
+.story-card {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 270px; /* Adjusted width */
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.story-card:hover {
+  transform: scale(1.05);
+}
+
+/* Story image */
+.story-image {
+  width: 100%;
+  height: 360px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+/* Story text */
+.story-content h3 {
+  font-size: 18px;
+  color: #1e3a8a;
+  margin: 10px 0;
+}
+
+.story-content p {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Click here button */
+.story-content a {
+  display: inline-block;
+  padding: 8px 15px;
+  background-color: #1e3a8a;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.story-content a:hover {
+  background-color: #153075;
+}
+
+/* Arrow buttons */
+.carousel-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  font-size: 40px; /* Larger */
+  font-weight: bold; /* Bold */
+  cursor: pointer;
+  color: black; /* Black */
+  padding: 10px;
+}
+
+/* Positioning arrows */
+.left-arrow {
+  left: -50px;
+}
+
+.right-arrow {
+  right: -50px;
+}
+
+/* Disabled arrow styling */
+.carousel-arrow:disabled {
+  color: #aaa;
+  cursor: not-allowed;
+}

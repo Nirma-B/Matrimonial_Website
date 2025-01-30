@@ -1,0 +1,120 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: rgb(154, 132, 235);
+  height: 70px;
+  font-family: cursive;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+/* Add shadow when scrolling */
+.header.scrolled {
+  background-color: rgb(134, 112, 215); /* Slightly darker shade */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 30px; /* Add padding to prevent elements from touching the edge */
+  box-sizing: border-box; /* Ensures padding is included in width calculation */
+}
+
+
+.logo img {
+  height: 80px;
+  width: auto;
+  margin-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.y, .t, .matrimony {
+  color: white;
+  font-family: cursive;
+}
+
+.t, .matrimony {
+  margin-left: 5px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-family: cursive;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+  padding: 5px 10px;
+  align-items: center;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #f0f0f0;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.login-button, .signup-button {
+  padding: 8px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 20px;
+  background-color: transparent;
+  color: white;
+  font-family: cursive;
+  transition: all 0.3s ease-in-out;
+}
+
+.login-button:hover, .signup-button:hover {
+  background-color: white;
+  color: rgb(154, 132, 235);
+}
+.logout-button {
+  padding: 8px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 20px;
+  background-color: transparent;
+  color: white;
+  font-family: cursive;
+  transition: all 0.3s ease-in-out;
+}
+
+.logout-button:hover {
+  background-color: white;
+  color: rgb(154, 132, 235);
+}

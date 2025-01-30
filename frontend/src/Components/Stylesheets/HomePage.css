@@ -1,0 +1,73 @@
+.homepage {
+  font-family: cursive;
+  color: #333;
+}
+
+.image-section {
+  position: relative;
+}
+
+.image-section .background-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  opacity: 0.5;
+  border-radius:10px;
+  padding: 5px;
+  margin: 5px;
+}
+h2{
+  background-color:none;
+}
+.image-overlay {
+  position: absolute;
+  bottom: 160px; 
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  text-align: center;
+  background: rgba(117, 113, 113, 0.6); 
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%; 
+  max-width: 800px; 
+}
+
+.image-overlay h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.image-overlay p {
+  font-size: 1.2rem;
+}
+
+.join-community {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+  background: rgb(177, 142, 223);
+  border-radius: 10px;
+}
+.join-community h2{
+  color:white;
+}
+.join-community p{
+  font-size: 20px;
+  color:white;
+}
+
+.cta-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
